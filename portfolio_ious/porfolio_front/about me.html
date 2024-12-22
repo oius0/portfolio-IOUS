@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Jenny Subrastas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+    }
+
+    .about-section {
+      text-align: center;
+      background-color: #333;
+      color: #ffffff;
+      padding: 20px;
+    }
+
+    .about-section h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: #fff6f6;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .card a {
+      text-decoration: none;
+      background-color: #007BFF;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 10px 0;
+      transition: background-color 0.3s ease;
+    }
+
+    .card a:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background-color: #333;
+      color: #fff;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="about-section">
+    <h1>This is Jenny Subrastas</h1>
+  </div>
+
+  <div class="grid-container">
+    <!-- Computer Maintenance Card -->
+    <div class="card">
+      <img src="computer_maintenance.jpg" alt="Computer Maintenance">
+      <h3>Computer Maintenance and Engineering</h3>
+      <a href="#computer-engineering">Learn More</a>
+    </div>
+
+    <!-- Content Creation Card -->
+    <div class="card">
+      <img src="content_creation.jpg" alt="Content Creation">
+      <h3>Content Creations</h3>
+      <a href="#content-creation">More</a>
+    </div>
+
+    <!-- Gaming Card -->
+    <div class="card">
+      <img src="gaming.jpg" alt="Gaming">
+      <h3>Gaming</h3>
+      <a href="#gaming">Watch Live Now</a>
+    </div>
+  </div>
+
+  <!-- Detailed Sections -->
+  <div id="computer-engineering" class="about-section">
+    <h1>Computer Engineering</h1>
+    <div class="grid-container">
+      <div class="card">
+        <img src="engineering1.jpg" alt="Engineering Work 1">
+      </div>
+      <div class="card">
+        <img src="engineering2.jpg" alt="Engineering Work 2">
+      </div>
+      <div class="card">
+        <img src="engineering3.jpg" alt="Engineering Work 3">
+      </div>
+      <div class="card">
+        <img src="engineering4.jpg" alt="Engineering Work 4">
+      </div>
+    </div>
+  </div>
+
+  <div id="content-creation" class="about-section">
+    <h1>Content Creation</h1>
+    <div class="grid-container">
+      <div class="card">
+        <img src="creation1.jpg" alt="Latest Creation">
+        <a href="latest_creation1.html">More</a>
+      </div>
+      <div class="card">
+        <img src="creation2.jpg" alt="Latest Creation">
+        <a href="latest_creation2.html">More</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="gaming" class="about-section">
+    <h1>Gaming</h1>
+    <img src="gaming.jpg" alt="Gaming Setup" style="width: 80%; border-radius: 8px;">
+    <a href="https://www.twitch.tv" target="_blank" style="display: inline-block; margin-top: 20px; background-color: #007BFF; padding: 10px 20px; color: #fff; text-decoration: none; border-radius: 5px;">Watch Live Now</a>
+  </div>
+
+  <footer>
+    <p>© 2024 Jenny Subrastas - All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

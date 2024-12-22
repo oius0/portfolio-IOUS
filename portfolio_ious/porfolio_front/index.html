@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOUS</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Portfolio of Jenny Subrastas, a Back End Developer specializing in Computer Maintenance and Engineering.">
+    <meta property="og:title" content="Jenny Subrastas Portfolio">
+    <meta property="og:description" content="Portfolio of Jenny Subrastas, a Back End Developer specializing in Computer Maintenance and Engineering.">
+    <meta property="og:image" content="path/to/social-media-image.jpg">
+    <meta property="og:url" content="https://theious.engineer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="portfolio.vid.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <header role="banner">
+        <nav role="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tech">Tech</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <section id="intro">
+            <h1>Hello! I am <span>Jenny</span></h1>
+            <p>Back End Developer @ Self Employed | Direct Clients | Computer Maintenance and Engineering</p>
+            <button onclick="window.location.href='mailto:info@ious.engineer';">Connect with me!</button>
+            <button onclick="window.location.href='Subrastas-resume.pdf';">Download CV</button>
+        </section>
+
+        <!-- About Section-->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Jenny Subrastas, a passionate Back End Developer with a specialization in Computer Maintenance and Engineering. I have a strong background in computer engineering and a keen interest in developing efficient and scalable backend systems.</p>
+            <p>With a solid foundation in various programming languages and tools, I have worked on numerous projects that have honed my skills in backend development, database management, and system design. I am always eager to learn new technologies and take on challenging projects that push the boundaries of my knowledge and expertise.</p>
+            <h3>Tech</h3>
+            <ul>
+                <li>Programming Languages: C++, Java, Python, JavaScript</li>
+                <li>Web Technologies: HTML, CSS, Node.js, Express.js</li>
+                <li>Database Management: MySQL, MongoDB</li>
+                <li>Tools & Platforms: Git, Docker, AWS</li>
+                <li>Other: Figma, Solidworks, CircuitWizard</li>
+            </ul>
+        </section>
+
+        <!-- Project Section-->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project">
+                    <img src="project.eConnect.jpg" alt="eConnect">
+                    <div class="project-info">
+                        <h3>eConnect</h3>
+                        <p>An application to track your all data from one place. I developed the website and the mobile app.</p>
+                        <button onclick="window.location.href='https://link-to-eConnect-project.com';">Learn More</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="project.RE Solutions.jpg" alt="RE Solutions">
+                    <div class="project-info">
+                        <h3>RE Solutions</h3>
+                        <p>An app to help people to get an overview of how they can make the city beautiful.</p>
+                        <button onclick="window.location.href='https://link-to-RE-Solutions-project.com';">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section-->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via email at <a href="mailto:info@ious.engineer">info@ious.engineer</a> or use the form below:</p>
+            <form action="https://formspree.io/f/{your-form-id}" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>Copyright © Ious 2024</p>
+        <p>Follow me on 
+            <a href="https://x.com/o_ius0" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="https://www.linkedin.com/in/jennysubrastas-823017225/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> 
+            <a href="https://github.com/oius0" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
